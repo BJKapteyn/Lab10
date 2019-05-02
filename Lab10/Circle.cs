@@ -23,7 +23,7 @@ namespace Lab10
 
         public double GetArea(double radius)
         {
-            double cArea = Math.Pow((2 * Math.PI * radius), 2);
+            double cArea = Math.PI * Math.Pow((radius), 2);
             return cArea;
         }
 
